@@ -8,7 +8,7 @@ var btns =document.getElementsByClassName("nav-item");
       if(dataId==="job")
       {
         document.getElementById("Title").innerHTML="Jobs";
-          document.getElementById("candidatePage").style.display="block";
+          document.getElementById("candidatePage").style.display="none";
         document.getElementById("offerPage").style.display="none";
           document.getElementById("interviewPage").style.display="none";
           document.getElementById("jobPage").style.display="block";
