@@ -5,6 +5,12 @@
 #jobPage{
   display: block;
 }
+#interviewPage{
+  display:none
+}
+#offerPage{
+  display: none;
+}
 body{
   overflow: hidden;
 }
