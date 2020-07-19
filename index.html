@@ -153,11 +153,11 @@
                         <div class="table-responsive">
                           <table class="table">
                             <thead class=" text-primary">
-                              <th> Id</th>
-                              <th> Name</th>
-                              <th> Country</th>
-                              <th>City</th>
-                              <th>Salary</th>
+                              <th> Candidate contact</th>
+                              <th> Candidate respond</th>
+                              <th> % of fit candidate</th>
+                              <th>Time to find right fit</th>
+                              <th>Tectical Skills Analytics</th>
                             </thead>
                             <tbody>
                               <tr>
@@ -165,14 +165,14 @@
                                 <td>Dakota Rice</td>
                                 <td> Nige</td>
                                 <td> Oud-Turnhou</td>
-                                <td class="text-primary">$36,73</td>
+                                <td>$36,73</td>
                               </tr>
                               <tr>
                                 <td>2</td>
                                 <td> Minerva Hooper</td>
                                 <td>Curaçao</td>
                                 <td> Sinaai-Waas</td>
-                                <td class="text-primary">$23,789
+                                <td >$23,789
                                 </td>
                               </tr>
                             </tbody>
@@ -189,37 +189,66 @@
 <div class="content" id="interviewPage">
   <div class="container-fluid">
       <div class="row">
+        <!---->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card card-stats">
+            <div class="card-header card-header-warning card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">content_copy</i>
+              </div>
+              <p class="card-category">Scheduled</p>
+              <h3 class="card-title">499
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card card-stats">
+            <div class="card-header card-header-success card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">pending</i>
+              </div>
+              <p class="card-category">pending</p>
+              <h3 class="card-title">245</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card card-stats">
+            <div class="card-body card-header-danger card-header-icon">
+              <p class="card-category">Fixed Issues</p>
+              <h3 class="card-title">75</h3>
+            </div>
+          </div>
+        </div>
+        <!----->
           <div class="col-md-12">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title ">Interview Table</h4>
-                  <p class="card-category"> Here is a subtitle for this table</p>
+                  <h4 class="card-title ">Interview</h4>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
                     <table class="table">
                       <thead class=" text-primary">
-                        <th> Id</th>
-                        <th> Name</th>
-                        <th> Country</th>
-                        <th>City</th>
-                        <th>Salary</th>
+                        <th> Candidate Name</th>
+                        <th> Time</th>
+                        <th> Date</th>
+                        <th>Interview Name</th>
                       </thead>
                       <tbody>
                         <tr>
-                          <td> 1</td>
                           <td>Dakota Rice</td>
-                          <td> Nige</td>
-                          <td> Oud-Turnhou</td>
-                          <td class="text-primary">$36,73</td>
+                          <td> 4</td>
+                          <td> 6</td>
+                          <td>david</td>
                         </tr>
                         <tr>
-                          <td>2</td>
                           <td> Minerva Hooper</td>
-                          <td>Curaçao</td>
+                          <td>4</td>
+                          <td>7</td>
                           <td> Sinaai-Waas</td>
-                          <td class="text-primary">$23,789
-                          </td>
+                          <td></td>
                         </tr>
                       </tbody>
                     </table>
@@ -241,35 +270,41 @@
           <div class="col-md-12">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title ">Offer Table</h4>
-                  <p class="card-category"> Here is a subtitle for this table</p>
+                  <h4 class="card-title ">Offer</h4>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
-                    <table class="table">
+                    <table class="table clientdatatable">
                       <thead class=" text-primary">
-                        <th> Id</th>
                         <th> Name</th>
-                        <th> Country</th>
-                        <th>City</th>
-                        <th>Salary</th>
+                        <th> Email</th>
+                        <th> Phone</th>
+                        <th>Selling rate</th>
+                        <th>buying rate</th>
+                        <th>Duration</th>
+                        <th>start date</th>
                       </thead>
                       <tbody>
                         <tr>
-                          <td> 1</td>
-                          <td>Dakota Rice</td>
-                          <td> Nige</td>
-                          <td> Oud-Turnhou</td>
-                          <td class="text-primary">$36,73</td>
+                          <td>Dakota</td>
+                          <td>Dakota@gmail.com</td>
+                          <td> 8765456789</td>
+                          <td> 23456</td>
+                          <td>24567</td>
+                          <td>6 month</td>
+                          <td>2july2020</td>
                         </tr>
+                        
                         <tr>
-                          <td>2</td>
-                          <td> Minerva Hooper</td>
-                          <td>Curaçao</td>
-                          <td> Sinaai-Waas</td>
-                          <td class="text-primary">$23,789
-                          </td>
-                        </tr>
+                          <td>sakert</td>
+                          <td>sakert@gmail.com</td>
+                          <td> 8765456789</td>
+                          <td> 23456</td>
+                          <td>24567</td>
+                          <td>7 month</td>
+                          <td>3june2020</td>
+                          </tr>
+                          
                       </tbody>
                     </table>
                   </div>
@@ -281,11 +316,22 @@
 </div>
 <!---offer page end-->
 
-<script src="js/a.js">
+<script src="js/mainContent.js">
 
+     </script>
+    
+     <script>
+         $('.clientdatatable').DataTable(
+             {
+                 ordering: false,
+                 lengthMenu:[5]
+             }
+         );
      </script>
       
   <!--   Core JS Files   -->
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>   
+  <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
   <script src="js/core/jquery.min.js"></script>
   <script src="js/core/popper.min.js"></script>
   <script src="js/core/bootstrap-design.min.js"></script>
